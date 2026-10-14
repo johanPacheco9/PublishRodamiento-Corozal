@@ -1,19 +1,19 @@
 /* /Shared/MainLayout.razor.rz.scp.css */
-.page[b-18ynw2w9u1] {
+.page[b-o8p7kxv7ou] {
     position: relative;
     display: flex;
     flex-direction: column;
 }
 
-main[b-18ynw2w9u1] {
+main[b-o8p7kxv7ou] {
     flex: 1;
 }
 
-.sidebar[b-18ynw2w9u1] {
+.sidebar[b-o8p7kxv7ou] {
     background-image: linear-gradient(180deg, rgb(5, 39, 103) 0%, #3a0647 70%);
 }
 
-.top-row[b-18ynw2w9u1] {
+.top-row[b-o8p7kxv7ou] {
     background-color: #f7f7f7;
     border-bottom: 1px solid #d6d5d5;
     justify-content: flex-end;
@@ -22,88 +22,88 @@ main[b-18ynw2w9u1] {
     align-items: center;
 }
 
-    .top-row[b-18ynw2w9u1]  a, .top-row .btn-link[b-18ynw2w9u1] {
+    .top-row[b-o8p7kxv7ou]  a, .top-row .btn-link[b-o8p7kxv7ou] {
         white-space: nowrap;
         margin-left: 1.5rem;
     }
 
-    .top-row a:first-child[b-18ynw2w9u1] {
+    .top-row a:first-child[b-o8p7kxv7ou] {
         overflow: hidden;
         text-overflow: ellipsis;
     }
 
 @media (max-width: 640.98px) {
-    .top-row:not(.auth)[b-18ynw2w9u1] {
+    .top-row:not(.auth)[b-o8p7kxv7ou] {
         display: none;
     }
 
-    .top-row.auth[b-18ynw2w9u1] {
+    .top-row.auth[b-o8p7kxv7ou] {
         justify-content: space-between;
     }
 
-    .top-row a[b-18ynw2w9u1], .top-row .btn-link[b-18ynw2w9u1] {
+    .top-row a[b-o8p7kxv7ou], .top-row .btn-link[b-o8p7kxv7ou] {
         margin-left: 0;
     }
 }
 
 @media (min-width: 641px) {
-    .page[b-18ynw2w9u1] {
+    .page[b-o8p7kxv7ou] {
         flex-direction: row;
     }
 
-    .sidebar[b-18ynw2w9u1] {
+    .sidebar[b-o8p7kxv7ou] {
         width: 250px;
         height: 100vh;
         position: sticky;
         top: 0;
     }
 
-    .top-row[b-18ynw2w9u1] {
+    .top-row[b-o8p7kxv7ou] {
         position: sticky;
         top: 0;
         z-index: 1;
     }
 
-    .top-row[b-18ynw2w9u1], article[b-18ynw2w9u1] {
+    .top-row[b-o8p7kxv7ou], article[b-o8p7kxv7ou] {
         padding-left: 2rem !important;
         padding-right: 1.5rem !important;
     }
 }
 /* /Shared/NavMenu.razor.rz.scp.css */
-.navbar-toggler[b-c3099ow7nv] {
+.navbar-toggler[b-xfv9kk4a6a] {
     background-color: rgba(255, 255, 255, 0.1);
 }
 
-.top-row[b-c3099ow7nv] {
+.top-row[b-xfv9kk4a6a] {
     height: 3.5rem;
     background-color: rgba(0,0,0,0.4);
 }
 
-.navbar-brand[b-c3099ow7nv] {
+.navbar-brand[b-xfv9kk4a6a] {
     font-size: 1.1rem;
 }
 
-.oi[b-c3099ow7nv] {
+.oi[b-xfv9kk4a6a] {
     width: 2rem;
     font-size: 1.1rem;
     vertical-align: text-top;
     top: -2px;
 }
 
-.nav-item[b-c3099ow7nv] {
+.nav-item[b-xfv9kk4a6a] {
     font-size: 0.9rem;
     padding-bottom: 0.5rem;
 }
 
-    .nav-item:first-of-type[b-c3099ow7nv] {
+    .nav-item:first-of-type[b-xfv9kk4a6a] {
         padding-top: 1rem;
     }
 
-    .nav-item:last-of-type[b-c3099ow7nv] {
+    .nav-item:last-of-type[b-xfv9kk4a6a] {
         padding-bottom: 1rem;
     }
 
-    .nav-item[b-c3099ow7nv]  a {
+    .nav-item[b-xfv9kk4a6a]  a {
         color: #d7d7d7;
         border-radius: 4px;
         height: 3rem;
@@ -112,27 +112,27 @@ main[b-18ynw2w9u1] {
         line-height: 3rem;
     }
 
-.nav-item[b-c3099ow7nv]  a.active {
+.nav-item[b-xfv9kk4a6a]  a.active {
     background-color: rgba(255,255,255,0.25);
     color: white;
 }
 
-.nav-item[b-c3099ow7nv]  a:hover {
+.nav-item[b-xfv9kk4a6a]  a:hover {
     background-color: rgba(255,255,255,0.1);
     color: white;
 }
 
 @media (min-width: 641px) {
-    .navbar-toggler[b-c3099ow7nv] {
+    .navbar-toggler[b-xfv9kk4a6a] {
         display: none;
     }
 
-    .collapse[b-c3099ow7nv] {
+    .collapse[b-xfv9kk4a6a] {
         /* Never collapse the sidebar for wide screens */
         display: block;
     }
     
-    .nav-scrollable[b-c3099ow7nv] {
+    .nav-scrollable[b-xfv9kk4a6a] {
         /* Allow sidebar to scroll for tall menus */
         height: calc(100vh - 3.5rem);
         overflow-y: auto;
